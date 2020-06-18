@@ -9,6 +9,7 @@
 .container {
   background: url('https://i.ibb.co/xmQwj2T/bg.jpg') no-repeat;
   background-size: cover;
+  height:100vh;
 }
 .bgdark {
   background: rgba(0, 0, 0, 0.6);
