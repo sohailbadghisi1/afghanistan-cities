@@ -1,13 +1,13 @@
 * {
   margin:0;
   padding:0;
-  font-family: 'vazir';
+  font-family: 'Vazir';
   direction: rtl;
 }
 
 
 .container {
-  background: url('bg.jpg') no-repeat;
+  background: url('https://i.ibb.co/xmQwj2T/bg.jpg') no-repeat;
   background-size: cover;
 }
 .bgdark {
