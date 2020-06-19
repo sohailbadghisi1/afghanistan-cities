@@ -95,7 +95,7 @@
 .article {
   flex:1;
   margin: 0;
-  padding:0 1rem;
+  padding:1rem;
 }
 .image {
   flex:1;
