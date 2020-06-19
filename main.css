@@ -175,8 +175,11 @@
   .info {
     margin:1rem 0;
     padding:1rem .5rem;
-    font-size:.8rem;
+    font-size:1rem;
     padding-bottom:0;
+  }
+  .article {
+    padding:1rem;
   }
   .left {
     border:none;
