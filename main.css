@@ -1,15 +1,15 @@
 * {
   margin:0;
   padding:0;
-  font-family: 'Vazir';
+  font-family: 'vazir';
   direction: rtl;
+  box-sizing: border-box;
 }
 
 
 .container {
   background: url('https://i.ibb.co/xmQwj2T/bg.jpg') no-repeat;
   background-size: cover;
-  height:100vh;
 }
 .bgdark {
   background: rgba(0, 0, 0, 0.6);
@@ -41,17 +41,28 @@
   font-size:1rem;
 }
 
+.btn {
+  padding: .6rem 1rem;
+  cursor: pointer;
+}
+
 .main {
-  display: flex;
-  padding:1rem 3rem;
-  justify-content: center;
+  padding:0;
+  width:50%;
+  margin:0 auto;
+  padding:1rem;
+}
+.name {
+  padding:1rem;
+}
+.title {
+  margin:0;
 }
 
 .right {
-  padding:2rem 2rem;
-  flex:1;
   background: #fff;
 }
+
 .right h4 {
   font-size:1.5rem;
   margin-bottom:1rem;
@@ -59,40 +70,60 @@
   padding-bottom:.1rem;
 }
 
-.title {
-  
-}
-
-
 
 .right .space {
   display:inline;
-  margin:0 1rem;
+  margin:0 .5rem;
+  padding:.5rem;
 }
 
+.right .space span {
+  font-size:1rem;
+}
+.right .space b {
+  font-size:1rem;
+}
 
 .info {
   margin:.5rem 0;
   background: #eee;
   padding:1rem;
+  display: flex;
+  flex-direction: column;
+  padding:2rem 2rem;
 }
-
-.left {
+.article {
   flex:1;
-  border-right: 5px solid orange;
-  background: url('bg.jpg');
+  margin: 0;
+  padding:0 1rem;
 }
-
-.left img {
-  height: auto;
+.image {
+  flex:1;
+  justify-content: center;
+}
+.image img {
   width:100%;
-  height:100%;
+  margin-top:2rem;
+}
+.bottom { 
+  padding:1rem ;
 }
 
 
 @media screen and (max-width: 1100px) {
+  .info {
+    margin:1.5rem 0;
+  }
   .main {
-    padding:5rem 3rem;
+    padding:5%;
+    width:100%;
+  }
+  .left {
+    border:none;
+    padding:0;
+  } 
+  .left img {
+    height: 100%;
   }
   .right {
     flex:1;
@@ -105,10 +136,37 @@
 
 @media screen and (max-width: 500px) {
   .top .control {
-    width:70%;
+    width:60%;
+    padding:.5rem 1rem;
+  }
+  .top .control::placeholder {
+    font-size:.7rem;
+  }
+  .btn {
+    padding:.4rem 1rem;
   }
   .main {
+    margin:0;
+    padding:0;
+  }
+  .name {
+    margin: 0;
+    padding: 0;
+  }
+  .right {
+    margin:0;
     padding:1rem;
+  }
+  .title {
+    margin:0;
+    padding:0 1rem;
+  }
+  .right .space {
+    margin:0;
+    padding:2rem 0;
+  }
+  .right .space span {
+    display: block;
   }
   .right h4 {
     margin:1rem 0;
@@ -116,38 +174,14 @@
   }
   .info {
     margin:1rem 0;
+    padding:1rem .5rem;
+    font-size:.8rem;
+    padding-bottom:0;
   }
   .left {
     border:none;
   }
   .left img{
-    height:80vh;
+    height:70vh;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
