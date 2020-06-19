@@ -22,13 +22,14 @@ function displayData() {
     ourData.map(data => {
         main.innerHTML = `
         <div class="right">
-
-            <h4>ولایت ${data.cityName}</h4>
+            <div class="name">
+                <h4>ولایت ${data.cityName}</h4>
+            </div>
             <div class='title'>
 
                 <div class='space'>
                     <span>جمعیت: </span>
-                    <b>${data.population}</b>
+                    <b>‎${data.population}</b>
                 </div>
            
                 <div class='space'>
@@ -47,9 +48,6 @@ function displayData() {
                     <p>
                         ${data.about}
                     </p>         
-                </div>
-                <div class='image'>
-                    <img src='${data.img}'>
                 </div>
             </div>
         <div class="bottom">
