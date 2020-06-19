@@ -28,7 +28,7 @@ function displayData() {
 
                 <div class='space'>
                     <span>جمعیت: </span>
-                    <b>‎${data.population}</b>
+                    <b>${data.population}</b>
                 </div>
            
                 <div class='space'>
@@ -42,9 +42,15 @@ function displayData() {
             
             </div>
             <div class='info'>
-                <p>
-                    ${data.about}
-                </p>
+             
+                <div class='article'>
+                    <p>
+                        ${data.about}
+                    </p>         
+                </div>
+                <div class='image'>
+                    <img src='${data.img}'>
+                </div>
             </div>
         <div class="bottom">
             <b>ولسوالی ها</b>
@@ -55,9 +61,6 @@ function displayData() {
 
     </div>
     
-    <div class='left'>
-        <img src="${data.img}">
-    </div>
 
 
         `
