@@ -49,6 +49,7 @@ function displayData() {
                         ${data.about}
                     </p>         
                 </div>
+                
             </div>
         <div class="bottom">
             <b>ولسوالی ها</b>
