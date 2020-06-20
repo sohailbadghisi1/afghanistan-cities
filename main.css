@@ -4,11 +4,12 @@
   font-family: 'vazir';
   direction: rtl;
   box-sizing: border-box;
+  color: #4b4b4b;
 }
 
 
 .container {
-  background: url('https://i.ibb.co/xmQwj2T/bg.jpg') no-repeat;
+  background: url('bg1.jpg') no-repeat;
   background-size: cover;
 }
 .bgdark {
@@ -23,7 +24,7 @@
 
 .top h3 {
   font-size: 2rem;
-  color: orange;
+  color: whitesmoke;
   letter-spacing: .1rem;
 }
 
@@ -44,17 +45,19 @@
 .btn {
   padding: .6rem 1rem;
   cursor: pointer;
+  
 }
 
 .main {
   padding:0;
-  width:50%;
+  width:70%;
   margin:0 auto;
   padding:1rem;
 }
 .name {
-  padding:1rem;
+  padding:2rem;
 }
+
 .title {
   margin:0;
 }
@@ -65,7 +68,6 @@
 
 .right h4 {
   font-size:1.5rem;
-  margin-bottom:1rem;
   border-bottom:1px solid #eee;
   padding-bottom:.1rem;
 }
@@ -89,13 +91,13 @@
   background: #eee;
   padding:1rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding:2rem 2rem;
 }
 .article {
   flex:1;
   margin: 0;
-  padding:1rem;
+  padding:0 1rem;
 }
 .image {
   flex:1;
@@ -104,6 +106,7 @@
 .image img {
   width:100%;
   float:left;
+  margin-top:2rem;
 }
 .bottom { 
   padding:1rem ;
@@ -137,13 +140,17 @@
 @media screen and (max-width: 500px) {
   .top .control {
     width:60%;
-    padding:.5rem 1rem;
+    padding:.6rem 1rem;
   }
   .top .control::placeholder {
-    font-size:.7rem;
+    font-size:.9rem;
   }
   .btn {
-    padding:.4rem 1rem;
+    padding:.6rem 1rem;
+    background: crimson;
+    color: #fff;
+    border:none;
+    border-radius:.2rem;
   }
   .main {
     margin:0;
@@ -176,10 +183,6 @@
     margin:1rem 0;
     padding:1rem .5rem;
     font-size:1rem;
-    padding-bottom:0;
-  }
-  .article {
-    padding:1rem;
   }
   .left {
     border:none;
@@ -188,4 +191,11 @@
     height:70vh;
   }
 }
+
+
+
+
+
+
+
 
