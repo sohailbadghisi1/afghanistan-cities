@@ -4,11 +4,11 @@
   font-family: 'vazir';
   direction: rtl;
   box-sizing: border-box;
-  color: #4b4b4b;
 }
 
 
 .container {
+  color: #4b4b4b;
   background: url('https://i.ibb.co/MNRLXDQ/bg1.jpg') no-repeat;
   background-size: cover;
 }
@@ -57,6 +57,7 @@
   width:50%;
   margin:0 auto;
   padding:1rem 2rem;
+  
 }
 .name {
   padding:2rem;
@@ -119,11 +120,21 @@
   width:100%;
   float:left;
   margin-top:2rem;
+  height:50vh;
 }
 .bottom { 
   padding:1rem ;
 }
 
+footer {
+  background: #000;
+  padding:1rem 0;
+  text-align:center;
+  color:#fff;
+}
+footer .fa-heart {
+  color: red
+}
 
 @media screen and (max-width: 1100px) {
   .info {
@@ -202,3 +213,30 @@
     height:70vh;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
