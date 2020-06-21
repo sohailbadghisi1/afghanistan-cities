@@ -9,7 +9,7 @@
 
 
 .container {
-  background: url('https://i.ibb.co/MNRLXDQ/bg1.jpg') no-repeat;
+  background: url('bg1.jpg') no-repeat;
   background-size: cover;
 }
 .bgdark {
@@ -88,6 +88,14 @@
 }
 .right .space b {
   font-size:1rem;
+}
+
+.error h4{
+  border:none;
+}
+.error-h4 {
+  text-align:center;
+  color:#C9302C;
 }
 
 .info {
@@ -194,6 +202,7 @@
     height:70vh;
   }
 }
+
 
 
 
