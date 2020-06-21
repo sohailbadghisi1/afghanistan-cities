@@ -50,6 +50,10 @@ function displayData() {
                     </p>         
                 </div>
                 
+                <div class='img'>
+                    <img src='${data.img}'>
+                </div>
+                
             </div>
         <div class="bottom">
             <b>ولسوالی ها</b>
