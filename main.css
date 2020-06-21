@@ -43,16 +43,20 @@
 }
 
 .btn {
-  padding: .6rem 1rem;
+  padding: .7rem 1rem;
   cursor: pointer;
-  
+  border-radius:.2rem;
+  background: crimson;
+  color: #fff;
+  border:none;
+
 }
 
 .main {
   padding:0;
-  width:70%;
+  width:50%;
   margin:0 auto;
-  padding:1rem;
+  padding:1rem 2rem;
 }
 .name {
   padding:2rem;
@@ -91,7 +95,7 @@
   background: #eee;
   padding:1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding:2rem 2rem;
 }
 .article {
@@ -99,11 +103,11 @@
   margin: 0;
   padding:0 1rem;
 }
-.image {
+.img {
   flex:1;
   justify-content: center;
 }
-.image img {
+.img img {
   width:100%;
   float:left;
   margin-top:2rem;
@@ -169,8 +173,7 @@
     padding:0 1rem;
   }
   .right .space {
-    margin:0;
-    padding:2rem 0;
+    padding: 0;
   }
   .right .space span {
     display: block;
@@ -191,10 +194,6 @@
     height:70vh;
   }
 }
-
-
-
-
 
 
 
