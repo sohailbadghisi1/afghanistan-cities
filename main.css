@@ -1,7 +1,7 @@
 * {
   margin:0;
   padding:0;
-  font-family: 'vazir';
+  font-family: 'vazir', 'arial';
   direction: rtl;
   box-sizing: border-box;
 }
@@ -12,6 +12,7 @@
   background: url('https://i.ibb.co/MNRLXDQ/bg1.jpg') no-repeat;
   background-size: cover;
 }
+
 .bgdark {
   background: rgba(0, 0, 0, 0.6);
 }
@@ -54,11 +55,12 @@
 
 .main {
   padding:0;
-  width:50%;
+  width:70%;
   margin:0 auto;
   padding:1rem 2rem;
   
 }
+
 .name {
   padding:2rem;
 }
@@ -104,14 +106,18 @@
   background: #eee;
   padding:1rem;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   padding:2rem 2rem;
 }
 .article {
   flex:1;
+  padding-top:5rem;
   margin: 0;
+  justify-content: center;
   padding:0 1rem;
 }
+
 .img {
   flex:1;
   justify-content: center;
@@ -119,7 +125,6 @@
 .img img {
   width:100%;
   float:left;
-  margin-top:2rem;
   height:50vh;
 }
 .bottom { 
@@ -127,13 +132,14 @@
 }
 
 footer {
-  background: #000;
-  padding:1rem 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding:1.5rem 0;
   text-align:center;
-  color:#fff;
+  color:#eee;
 }
-footer .fa-heart {
-  color: red
+footer h3 a {
+  color: lightblue;
+  text-decoration:none;
 }
 
 @media screen and (max-width: 1100px) {
@@ -163,10 +169,10 @@ footer .fa-heart {
 @media screen and (max-width: 500px) {
   .top .control {
     width:60%;
-    padding:.6rem 1rem;
+    padding:.6rem .3rem;
   }
   .top .control::placeholder {
-    font-size:.9rem;
+    font-size:.8rem;
   }
   .btn {
     padding:.6rem 1rem;
@@ -181,62 +187,47 @@ footer .fa-heart {
   }
   .name {
     margin: 0;
-    padding: 0;
+    padding: 0 1rem;
   }
   .right {
     margin:0;
-    padding:1rem;
+    padding:1rem 0;
   }
   .title {
     margin:0;
-    padding:0 1rem;
+    padding: 1rem 1rem 0 1rem;
   }
   .right .space {
     padding: 0;
+    margin: 0;
   }
   .right .space span {
     display: block;
   }
   .right h4 {
-    margin:1rem 0;
+    margin: 0;
     padding-bottom:.5rem;
   }
   .info {
     margin:1rem 0;
     padding:1rem .5rem;
     font-size:1rem;
+    flex-direction: column;
   }
   .left {
     border:none;
   }
+  .article {
+    padding-bottom:1rem;
+  }
   .left img{
-    height:70vh;
+    height:auto;
+  }
+  footer {
+    padding: 1rem 0;
+    font-size:.8rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
